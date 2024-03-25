@@ -8,6 +8,10 @@ public class BienImmobilierApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BienImmobilierApplication.class, args);
+	} 
+	public void run(String... args) throws Exception {
+		System.out.println("Hello, World!");
 	}
+
 
 }
