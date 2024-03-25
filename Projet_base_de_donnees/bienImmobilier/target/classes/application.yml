@@ -1,0 +1,10 @@
+spring: 
+ application: 
+  name: bienImmobilier
+server: 
+ servlet:
+  context-path: /bienImmobilier
+eureka:
+ client:
+  serviceUrl:
+   defaultZone: http://localhost:8761/eureka/  
